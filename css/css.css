@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
+html, body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #f8fbff;
+}
+
+::selection {
+    background: #d6d7fe;
+}
+::-moz-selection {
+    background: #d6d7fe;
+}
+
+.code {
+    display: inline-block;
+    font: 25px 'Ubuntu Mono', Arial, sans-serif;
+    color: #808080;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -133px;
+    margin-left: -274px;
+}
+.code span {
+    color: #101010;
+}
+.code .bold {
+    font-weight: bold;
+}
+.code .space {
+    display: inline-block;
+    width: 10px;
+}
+.code .tab {
+    display: inline-block;
+    width: 40px;
+}
+.code .comment {
+    color: #808080;
+}
+.code .system  {
+    color: #092793;
+}
+.code .variable {
+    color: #841f19;
+}
+.code .string {
+    color: #008000;
+}
