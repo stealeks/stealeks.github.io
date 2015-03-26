@@ -50,3 +50,6 @@ body {
 .code .string {
     color: #008000;
 }
+.code .static {
+    font-style: italic;
+}
