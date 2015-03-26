@@ -77,6 +77,18 @@
                 <span>}</span>
             </li>
         </ol>
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                var $body = $('body');
+                $body.on('click', function () {
+                    if ($body.hasClass('blurred')) {
+                        $body.removeClass('blurred');
+                    } else {
+                        $body.addClass('blurred');
+                    }
+                });
+            });
+        </script>
     </body>
 </html>
