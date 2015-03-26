@@ -14,6 +14,15 @@ body {
     background: #d6d7fe;
 }
 
+body.blurred .code li > *,
+body.blurred .code li:before {
+    -webkit-filter: blur(5px);
+}
+
+body.blurred .code li > .no-blur {
+    -webkit-filter: blur(0px);
+}
+
 .code {
     display: inline-block;
     font: 25px 'Ubuntu Mono', Arial, sans-serif;
